@@ -1,0 +1,30 @@
+header {
+  background-color: #03A9F4;
+  margin-bottom: 10px;
+}
+header h1 {
+  padding: 20px 10px;
+  color: #FFF;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.2);
+}
+.topmenu {
+  background-color: rgba(0,0,0,0.04);
+  padding: 5px;
+}
+.topmenu > ul > li > a {
+  color: #FFF;
+}
+.topmenu > ul > li.select > a {
+  background-color: rgba(0,0,0,0.1);
+}
+.topmenu > ul > li:hover > a {
+  background-color: rgba(0,0,0,0.2);
+}
+.footer {
+  border-top: 3px solid #DDD;
+  background-color: #EEE;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px 10px;
+  color: #666;
+}
